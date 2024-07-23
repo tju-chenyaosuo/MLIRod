@@ -1,0 +1,22 @@
+llvm/include/llvm/ADT/SmallVector.h:294
+mlir::LogicalResultmlir::Op
+mlir::Op
+mlir::LogicalResultllvm::detail::UniqueFunctionBase
+mlir::RegisteredOperationName::Model
+mlir::Operation::fold : 9 => report/tmp.8YiJeM84kW.mlir/0.crash.txt
+
+
+mlir/lib/IR/PatternMatch.cpp:269
+mlir::FailureOr
+mlir::linalg::generalizeNamedOp
+mlir::linalg::LinalgGeneralizationPattern::returningMatchAndRewrite
+mlir::linalg::LinalgGeneralizationPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite : 1 => report/tmp.mxsGbla8ST.mlir/8.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:566
+mlir::Rangeconst*llvm::SmallVectorTemplateCommon
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily
+mlir::applyPatternsAndFoldGreedily : 1 => report/tmp.7GC6mGWs3r.mlir/5.crash.txt

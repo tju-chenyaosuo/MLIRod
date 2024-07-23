@@ -1,0 +1,102 @@
+llvm/include/llvm/ADT/SmallVector.h:294
+mlir::vector::BroadcastOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op
+mlir::LogicalResultllvm::detail::UniqueFunctionBase
+mlir::RegisteredOperationName::Model : 3051 => report/tmp.55VixO1ZU6.mlir.output/report/0.mlir.crash.txt
+
+
+None
+mlir::AllocationOpLLVMLowering::allocateBufferManuallyAlign
+mlir::AllocLikeOpLLVMLowering::matchAndRewrite
+mlir::ConversionPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite : 96 => report/tmp.3snEMJSvzy.mlir.output/report/3.mlir.crash.txt
+
+
+None
+mlir::FailureOr
+mlir::linalg::generalizeNamedOp
+mlir::linalg::LinalgGeneralizationPattern::returningMatchAndRewrite
+mlir::linalg::LinalgGeneralizationPattern::matchAndRewrite
+mlir::detail::OpOrInterfaceRewritePatternBase : 4 => report/tmp.Yd3ePBNCCd.mlir.output/report/4.mlir.crash.txt
+
+
+mlir/lib/IR/PatternMatch.cpp:269
+mlir::FailureOr
+mlir::linalg::generalizeNamedOp
+mlir::linalg::LinalgGeneralizationPattern::returningMatchAndRewrite
+mlir::linalg::LinalgGeneralizationPattern::matchAndRewrite
+mlir::detail::OpOrInterfaceRewritePatternBase : 431 => report/tmp.3vBkaXjl8u.mlir.output/report/8.mlir.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:566
+mlir::TypeStorage::getAbstractType
+mlir::Type::getTypeID
+mlir::RankedTensorTypemlir::sparse_tensor::getRankedTensorType
+mlir::sparse_tensor::SparseTensorTypemlir::sparse_tensor::getSparseTensorType
+mlir::detail::OpOrInterfaceRewritePatternBase : 838 => report/tmp.gZfmtvjqWe.mlir.output/report/4.mlir.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:572
+mlir::vector::isBroadcastableTo
+mlir::vector::ShuffleOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op
+mlir::LogicalResultllvm::detail::UniqueFunctionBase : 4 => report/tmp.4gHDwHek1C.mlir.output/report/8.mlir.crash.txt
+
+
+None
+mlir::vector::BroadcastOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op
+mlir::LogicalResultllvm::detail::UniqueFunctionBase
+mlir::RegisteredOperationName::Model : 49 => report/tmp.XjlvjvLsm4.mlir.output/report/7.mlir.crash.txt
+
+
+None
+mlir::RankedTensorType::get
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily : 4 => report/tmp.1Hi4hAYyGq.mlir.output/report/6.mlir.crash.txt
+
+
+mlir/lib/IR/BuiltinTypes.cpp:514
+mlir::AttributeStorage::getAbstractAttribute
+mlir::Attribute::getTypeID
+mlir::detail::getMemorySpaceAsInt
+mlir::MemRefType::getMemorySpaceAsInt
+mlir::affine::affineDataCopyGenerate : 14 => report/tmp.xwIB4EOAmg.mlir.output/report/5.mlir.crash.txt
+
+
+None
+mlir::AllocLikeOpLLVMLowering::matchAndRewrite
+mlir::ConversionPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPartialConversion : 1 => report/tmp.pddIVRvvXt.mlir.output/report/8.mlir.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:572
+mlir::vector::isBroadcastableTo
+mlir::vector::InsertElementOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op
+mlir::LogicalResultllvm::detail::UniqueFunctionBase : 2 => report/tmp.VSzp3AISiu.mlir.output/report/3.mlir.crash.txt
+
+
+None
+mlir::TypeStorage::getAbstractType
+mlir::Type::getTypeID
+mlir::RankedTensorTypemlir::sparse_tensor::getRankedTensorType
+mlir::sparse_tensor::SparseTensorTypemlir::sparse_tensor::getSparseTensorType
+mlir::detail::OpOrInterfaceRewritePatternBase : 10 => report/tmp.M6etY1dIuh.mlir.output/report/6.mlir.crash.txt
+
+
+None
+mlir::vector::isBroadcastableTo
+mlir::vector::ShuffleOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op
+mlir::LogicalResultllvm::detail::UniqueFunctionBase : 1 => report/tmp.wHVqqQhtKM.mlir.output/report/6.mlir.crash.txt

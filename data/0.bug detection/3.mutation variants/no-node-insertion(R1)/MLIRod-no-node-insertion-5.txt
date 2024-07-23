@@ -1,0 +1,126 @@
+mlir/lib/IR/PatternMatch.cpp:269
+mlir::FailureOr
+mlir::linalg::generalizeNamedOp
+mlir::linalg::LinalgGeneralizationPattern::returningMatchAndRewrite
+mlir::linalg::LinalgGeneralizationPattern::matchAndRewrite
+mlir::detail::OpOrInterfaceRewritePatternBase : 85 => report/tmp.n9WCOY01K6.mlir/1.crash.txt
+
+
+llvm/include/llvm/ADT/SmallVector.h:294
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily
+mlir::applyPatternsAndFoldGreedily : 36 => report/tmp.jUgsTJtd7Y.mlir/1.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:566
+mlir::TypeStorage::getAbstractType
+mlir::Type::getTypeID
+mlir::RankedTensorTypemlir::sparse_tensor::getRankedTensorType
+mlir::sparse_tensor::SparseTensorTypemlir::sparse_tensor::getSparseTensorType
+mlir::detail::OpOrInterfaceRewritePatternBase : 147 => report/tmp.GjPWm68YcF.mlir/3.crash.txt
+
+
+build/tools/mlir/include/mlir/IR/BuiltinTypeInterfaces.h.inc:240
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily
+mlir::applyPatternsAndFoldGreedily : 35 => report/tmp.GjPWm68YcF.mlir/8.crash.txt
+
+
+None
+mlir::AllocationOpLLVMLowering::allocateBufferManuallyAlign
+mlir::AllocLikeOpLLVMLowering::matchAndRewrite
+mlir::ConversionPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite : 151 => report/tmp.9MsbJUHLiQ.mlir/1.crash.txt
+
+
+llvm/include/llvm/ADT/SmallVector.h:294
+mlir::vector::BroadcastOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op
+mlir::LogicalResultllvm::detail::UniqueFunctionBase
+mlir::RegisteredOperationName::Model : 869 => report/tmp.cBCYSihzmu.mlir/9.crash.txt
+
+
+None
+mlir::OpInterface
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily : 7 => report/tmp.0GF9sgPEns.mlir/5.crash.txt
+
+
+mlir/lib/IR/BuiltinAttributes.cpp:958
+mlir::DenseElementsAttr::get
+mlir::OpFoldResult::OpFoldResult
+mlir::vector::BroadcastOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op : 27 => report/tmp.nwCQMrmFyk.mlir/2.crash.txt
+
+
+mlir/include/mlir/Support/MathExtras.h:24
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily
+mlir::applyPatternsAndFoldGreedily : 7 => report/tmp.VLsA0SxfM1.mlir/0.crash.txt
+
+
+None
+mlir::RankedTensorType::get
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily : 1 => report/tmp.AK4tiCOJn1.mlir/3.crash.txt
+
+
+None
+mlir::AllocLikeOpLLVMLowering::matchAndRewrite
+mlir::ConversionPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPartialConversion : 3 => report/tmp.7UqH6dSWBU.mlir/7.crash.txt
+
+
+mlir/lib/IR/BuiltinTypes.cpp:514
+mlir::AttributeStorage::getAbstractAttribute
+mlir::Attribute::getTypeID
+mlir::detail::getMemorySpaceAsInt
+mlir::MemRefType::getMemorySpaceAsInt
+mlir::affine::affineDataCopyGenerate : 8 => report/tmp.hO5lQaeUpY.mlir/0.crash.txt
+
+
+mlir/lib/IR/BuiltinAttributes.cpp:958
+mlir::DenseElementsAttr::get
+mlir::DenseElementsAttrmlir::DenseElementsAttr::get
+mlir::vector::SplatOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op : 4 => report/tmp.0e1IUJEpKx.mlir/2.crash.txt
+
+
+mlir/lib/Dialect/Affine/Analysis/AffineStructures.cpp:43
+mlir::OpFoldResult::OpFoldResult
+mlir::affine::FlatAffineValueConstraints::addInductionVarOrTerminalSymbol
+mlir::affine::FlatAffineValueConstraints::addBound
+mlir::affine::FlatAffineValueConstraints::addAffineForOpDomain
+mlir::affine::getIndexSet : 2 => report/tmp.X2YtYSKDPJ.mlir/9.crash.txt
+
+
+mlir/lib/IR/BuiltinAttributes.cpp:958
+mlir::DenseElementsAttr::get
+mlir::OpFoldResult::OpFoldResult
+mlir::tensor::SplatOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op : 4 => report/tmp.5oewCU37SB.mlir/0.crash.txt
+
+
+mlir/lib/IR/BuiltinAttributes.cpp:958
+mlir::DenseElementsAttr::get
+mlir::OpFoldResult::OpFoldResult
+mlir::tensor::FromElementsOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op : 1 => report/tmp.tA3K9jBPBb.mlir/9.crash.txt

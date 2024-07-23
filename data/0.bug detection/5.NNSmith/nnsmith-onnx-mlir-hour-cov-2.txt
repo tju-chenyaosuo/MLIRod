@@ -1,0 +1,76 @@
+None
+mlir::detail::OpToOpPassAdaptor::run
+mlir::detail::OpToOpPassAdaptor::runPipeline
+mlir::detail::OpToOpPassAdaptor::runOnOperationAsyncImpl
+mlir::detail::OpToOpPassAdaptor::runOnOperationAsyncImpl
+mlir::detail::OpToOpPassAdaptor::runOnOperation : 1873 => report/tmp.KIea2JPoPF.mlir.output/report/1.mlir.crash.txt
+
+
+None
+mlir::AllocationOpLLVMLowering::allocateBufferManuallyAlign
+mlir::AllocLikeOpLLVMLowering::matchAndRewrite
+mlir::ConversionPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite : 213 => report/tmp.pPKaQYKtMR.mlir.output/report/5.mlir.crash.txt
+
+
+mlir/lib/IR/BuiltinTypes.cpp:514
+mlir::AttributeStorage::getAbstractAttribute
+mlir::Attribute::getTypeID
+mlir::detail::getMemorySpaceAsInt
+mlir::MemRefType::getMemorySpaceAsInt
+mlir::affine::affineDataCopyGenerate : 30 => report/tmp.LRnxFMGXW1.mlir.output/report/0.mlir.crash.txt
+
+
+None
+mlir::detail::OpToOpPassAdaptor::run
+mlir::detail::OpToOpPassAdaptor::runPipeline
+mlir::detail::OpToOpPassAdaptor::runOnOperationAsyncImpl : 42 => report/tmp.fiw3FdxFuO.mlir.output/report/7.mlir.crash.txt
+
+
+None
+mlir::detail::OpToOpPassAdaptor::run
+mlir::detail::OpToOpPassAdaptor::runPipeline
+mlir::detail::OpToOpPassAdaptor::runOnOperationImpl
+mlir::detail::OpToOpPassAdaptor::runOnOperation
+mlir::detail::OpToOpPassAdaptor::run : 57 => report/tmp.RHXjJCg6Bg.mlir.output/report/5.mlir.crash.txt
+
+
+None
+mlir::AllocLikeOpLLVMLowering::matchAndRewrite
+mlir::ConversionPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPartialConversion : 1 => report/tmp.DR51hXA0uF.mlir.output/report/9.mlir.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:109
+mlir::WalkResultllvm::function_ref
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk : 4 => report/tmp.6iUSNpG5sR.mlir.output/report/4.mlir.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:109
+mlir::WalkResultllvm::function_ref
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk
+mlir::ConversionTarget::isLegal
+mlir::WalkResultllvm::function_ref : 1 => report/tmp.q44uDqd4uh.mlir.output/report/4.mlir.crash.txt
+
+
+None
+mlir::AttributeStorage::getAbstractAttribute
+mlir::Attribute::getTypeID
+mlir::detail::getMemorySpaceAsInt
+mlir::MemRefType::getMemorySpaceAsInt
+mlir::affine::affineDataCopyGenerate : 1 => report/tmp.jGn26k0T02.mlir.output/report/4.mlir.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:109
+mlir::WalkResultllvm::function_ref
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk
+mlir::ConversionTarget::isLegal : 1 => report/tmp.G1DzoulLIB.mlir.output/report/4.mlir.crash.txt

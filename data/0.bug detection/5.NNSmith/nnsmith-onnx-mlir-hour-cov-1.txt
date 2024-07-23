@@ -1,0 +1,60 @@
+None
+mlir::detail::OpToOpPassAdaptor::run
+mlir::detail::OpToOpPassAdaptor::runPipeline
+mlir::detail::OpToOpPassAdaptor::runOnOperationAsyncImpl
+mlir::detail::OpToOpPassAdaptor::runOnOperationAsyncImpl
+mlir::detail::OpToOpPassAdaptor::runOnOperation : 1677 => report/tmp.RiylRRU4Cx.mlir.output/report/7.mlir.crash.txt
+
+
+None
+mlir::detail::OpToOpPassAdaptor::run
+mlir::detail::OpToOpPassAdaptor::runPipeline
+mlir::detail::OpToOpPassAdaptor::runOnOperationImpl
+mlir::detail::OpToOpPassAdaptor::runOnOperation
+mlir::detail::OpToOpPassAdaptor::run : 62 => report/tmp.RiylRRU4Cx.mlir.output/report/2.mlir.crash.txt
+
+
+None
+mlir::AllocationOpLLVMLowering::allocateBufferManuallyAlign
+mlir::AllocLikeOpLLVMLowering::matchAndRewrite
+mlir::ConversionPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite : 160 => report/tmp.adQW0omcmV.mlir.output/report/6.mlir.crash.txt
+
+
+mlir/lib/IR/BuiltinTypes.cpp:514
+mlir::AttributeStorage::getAbstractAttribute
+mlir::Attribute::getTypeID
+mlir::detail::getMemorySpaceAsInt
+mlir::MemRefType::getMemorySpaceAsInt
+mlir::affine::affineDataCopyGenerate : 33 => report/tmp.bVwogsHAa7.mlir.output/report/3.mlir.crash.txt
+
+
+None
+mlir::detail::OpToOpPassAdaptor::run
+mlir::detail::OpToOpPassAdaptor::runPipeline
+mlir::detail::OpToOpPassAdaptor::runOnOperationAsyncImpl : 31 => report/tmp.mkJ1lNZIMt.mlir.output/report/9.mlir.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:109
+mlir::WalkResultllvm::function_ref
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk
+mlir::ConversionTarget::isLegal : 2 => report/tmp.OU4qjVb5Qz.mlir.output/report/5.mlir.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:109
+mlir::WalkResultllvm::function_ref
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk
+mlir::WalkResultmlir::detail::walk : 3 => report/tmp.W4NkPnmiwV.mlir.output/report/9.mlir.crash.txt
+
+
+None
+mlir::AllocLikeOpLLVMLowering::matchAndRewrite
+mlir::ConversionPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPartialConversion : 1 => report/tmp.iK4h1Gzz9B.mlir.output/report/8.mlir.crash.txt

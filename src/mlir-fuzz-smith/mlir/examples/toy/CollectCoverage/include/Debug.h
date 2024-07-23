@@ -1,0 +1,6 @@
+#ifndef MLIR_MUTATION_DEBUG_H
+#define MLIR_MUTATION_DEBUG_H
+
+// #define DEBUG
+
+#endif // MLIR_MUTATION_DEBUG_H

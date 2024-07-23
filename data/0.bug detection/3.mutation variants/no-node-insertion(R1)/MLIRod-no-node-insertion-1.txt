@@ -1,0 +1,126 @@
+llvm/include/llvm/ADT/SmallVector.h:294
+mlir::vector::BroadcastOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op
+mlir::LogicalResultllvm::detail::UniqueFunctionBase
+mlir::RegisteredOperationName::Model : 1515 => report/tmp.7vNumK2qHh.mlir/7.crash.txt
+
+
+llvm/include/llvm/Support/Casting.h:566
+mlir::TypeStorage::getAbstractType
+mlir::Type::getTypeID
+mlir::RankedTensorTypemlir::sparse_tensor::getRankedTensorType
+mlir::sparse_tensor::SparseTensorTypemlir::sparse_tensor::getSparseTensorType
+mlir::detail::OpOrInterfaceRewritePatternBase : 135 => report/tmp.9h9POZfxOW.mlir/4.crash.txt
+
+
+mlir/lib/IR/PatternMatch.cpp:269
+mlir::FailureOr
+mlir::linalg::generalizeNamedOp
+mlir::linalg::LinalgGeneralizationPattern::returningMatchAndRewrite
+mlir::linalg::LinalgGeneralizationPattern::matchAndRewrite
+mlir::detail::OpOrInterfaceRewritePatternBase : 123 => report/tmp.zjsek987rK.mlir/1.crash.txt
+
+
+None
+mlir::AllocationOpLLVMLowering::allocateBufferManuallyAlign
+mlir::AllocLikeOpLLVMLowering::matchAndRewrite
+mlir::ConversionPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite : 228 => report/tmp.Kp9PGwc5fj.mlir/1.crash.txt
+
+
+build/tools/mlir/include/mlir/IR/BuiltinTypeInterfaces.h.inc:240
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily
+mlir::applyPatternsAndFoldGreedily : 30 => report/tmp.undAfCv8jG.mlir/4.crash.txt
+
+
+None
+mlir::OpInterface
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily : 22 => report/tmp.CQtQTOucVV.mlir/8.crash.txt
+
+
+None
+mlir::vector::BroadcastOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op
+mlir::LogicalResultllvm::detail::UniqueFunctionBase
+mlir::RegisteredOperationName::Model : 2 => report/tmp.mU3GGHqfQF.mlir/6.crash.txt
+
+
+mlir/lib/IR/BuiltinAttributes.cpp:958
+mlir::DenseElementsAttr::get
+mlir::OpFoldResult::OpFoldResult
+mlir::vector::BroadcastOp::fold
+mlir::LogicalResultmlir::Op
+mlir::Op : 54 => report/tmp.LG9KVPsx66.mlir/2.crash.txt
+
+
+llvm/include/llvm/ADT/SmallVector.h:294
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily
+mlir::applyPatternsAndFoldGreedily : 19 => report/tmp.aP0TmUY28k.mlir/7.crash.txt
+
+
+mlir/include/mlir/Support/MathExtras.h:24
+mlir::detail::OpOrInterfaceRewritePatternBase
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPatternsAndFoldGreedily
+mlir::applyPatternsAndFoldGreedily : 8 => report/tmp.P6XO4A8Za6.mlir/1.crash.txt
+
+
+mlir/lib/IR/BuiltinTypes.cpp:514
+mlir::AttributeStorage::getAbstractAttribute
+mlir::Attribute::getTypeID
+mlir::detail::getMemorySpaceAsInt
+mlir::MemRefType::getMemorySpaceAsInt
+mlir::affine::affineDataCopyGenerate : 21 => report/tmp.tcxA0KEpdP.mlir/8.crash.txt
+
+
+mlir/lib/Dialect/Tensor/IR/TensorOps.cpp:503
+mlir::OpFoldResult::OpFoldResult
+mlir::tensor::DimOp::getConstantIndex
+mlir::tensor::DimOp::getSpeculatability
+mlir::detail::ConditionallySpeculatableInterfaceTraits::Model
+mlir::isSpeculatable : 2 => report/tmp.u6L9D17Vjq.mlir/8.crash.txt
+
+
+None
+mlir::AllocLikeOpLLVMLowering::matchAndRewrite
+mlir::ConversionPattern::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::PatternApplicator::matchAndRewrite
+mlir::applyPartialConversion : 4 => report/tmp.NfGsB8SPmk.mlir/3.crash.txt
+
+
+mlir/lib/Dialect/MemRef/IR/MemRefOps.cpp:934
+mlir::OpFoldResult::OpFoldResult
+mlir::memref::DimOp::getConstantIndex
+mlir::memref::DimOp::getSpeculatability
+mlir::detail::ConditionallySpeculatableInterfaceTraits::Model
+mlir::isSpeculatable : 1 => report/tmp.ZyPYU1FtCy.mlir/8.crash.txt
+
+
+None
+mlir::Type::getDialect
+mlir::Type::getContext
+mlir::MemRefType::get
+mlir::memref::AllocaOp::destructure
+mlir::detail::DestructurableAllocationOpInterfaceInterfaceTraits::Model : 1 => report/tmp.XIKqGEy2Hi.mlir/4.crash.txt
+
+
+mlir/lib/IR/AffineExpr.cpp:1336
+mlir::SimpleAffineExprFlattener::visitDivExpr
+mlir::SimpleAffineExprFlattener::visitFloorDivExpr
+mlir::AffineExprVisitor
+mlir::AffineExprVisitor
+mlir::AffineExprVisitor : 1 => report/tmp.RUvmZ0iUON.mlir/6.crash.txt
